@@ -1,0 +1,735 @@
+/* Basic styling*/
+
+*{
+  margin: 0;
+padding: 0;
+text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  outline: 0 !important;
+}
+
+body{
+  font-size: 14px;
+  background-image: url("img/pic5.jpg");
+  object-fit: cover;
+  background-size: cover;
+  overflow-x: hidden;
+  background-attachment: fixed;
+  font-family: 'Quicksand', sans-serif;
+  
+}
+
+
+.bodyGeorgia{
+  background-image: url("img/ushguli.jpg");
+ background-position: center; 
+}
+
+.bodyAbout{
+  background-image: url("img/aboutbg.jpg");
+}
+
+
+
+p{
+  font-size: 16px;
+}
+
+.copyright{
+  font-size: 12px;
+  font-family:  monospace;
+}
+
+.fa-times{
+  font-size: 32px;
+  display: none;
+  color: black;
+  
+}
+
+
+
+.burger{
+  z-index: 1000;
+}
+
+.fa-bars{
+  font-size: 32px;
+  color: black;
+}
+
+
+
+
+/* Lets style navbar menu*/
+header{
+  position: relative;   
+  height: 100px;
+  background: transparent;
+}
+
+.navbar-brand{
+  margin-top: 10px;
+}
+
+.logo{
+  width: 150px;
+}
+
+.navbar{
+  background: transparent;
+  margin-top: 30px;
+  
+}
+
+.navbar-nav{
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+ 
+}
+
+.nav-item{
+  margin-right: 20px;
+}
+
+
+
+.navbar-collapse{
+  
+  display: flex;
+  justify-content: center;
+}
+
+.raxdeba{ 
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+
+
+
+
+.dropdown-toggle::after{
+  content: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.nav-link{
+  color: #253e5b !important;
+  font-size: 18px;
+  
+}
+
+.nav-link:hover{
+  color: #ffa838 !important;
+}
+
+.active{
+  color: #ffa838 !important;
+}
+
+.active2{
+  background: black;
+}
+
+.active2 a{
+  color: #ffa838 !important;
+}
+
+.active:hover{
+  color: #253e5b !important;
+}
+
+
+.drpMenu, .drogba{
+  background: none;
+ background: lightblue;
+}
+
+.drpMenu{
+  margin-top: -5px;
+  background:#e5e5e5;
+  opacity: 0.5;
+}
+
+
+
+.dropdown-item:hover{
+  background:rgb(131, 166, 240);
+}
+
+.hiddenMenu .nav-item:hover{
+  background: black;
+  
+}
+
+
+
+
+
+.hiddenMenu .nav-link:hover{
+  background: black;
+  border-bottom: 0;
+  
+}
+
+.hiddenMenu .nav-item{
+  width: 100%;
+  padding-left: 25px;
+}
+
+.drpMenu2, .drogba2{
+  position: absolute;
+  left: -100px;
+  top: 5px;
+  background: lightgrey;
+  display: none;
+}
+
+.drogba{
+  margin-left: -30px;
+}
+
+
+
+.hiddenMenu{
+  display: none;
+  flex-direction: column !important;
+  width: 158px;
+  height: 100vh;
+  right: 0;
+  top: 0px;
+  position: absolute;
+  justify-content: flex-start;
+  padding-top: 160px;
+  background: #ffa838;
+}
+
+
+
+.slogan{
+  
+  margin-top: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  
+  
+
+}
+
+h1{
+  color: #253e5b;
+  font-family: monospace;
+  text-align: center;
+  
+  
+}
+
+.hummer{
+  width: 100px;
+  margin-top: 40px;
+}
+
+
+.likeHr{
+  display: block;
+  width: 250px;
+  height: 2px;
+  background-color: #ffa838;
+}
+
+.block{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 200px;
+
+}
+
+.block2{
+  margin-top: 50px;
+}
+
+.textUp{
+  display: flex;
+  width: 80%;
+  justify-content: flex-start;
+}
+
+.white1{
+  
+ display: flex;
+ justify-content: center;
+ width: 100%;
+ 
+  
+}
+
+.white2{
+  margin-top: 100px;
+}
+
+.content{
+  width: 80%;
+  background:RGBA(229,229,229, 0.7);
+  text-align: center;
+  
+  
+  
+}
+
+.content2{
+  
+  text-align: center;
+  background:#e5e5e5;
+}
+
+h2{
+  margin-top: 50px;
+  text-align: left !important;
+  color: #253e5b;
+}
+
+.team1, .team2, .team3{
+  width: 200px;
+  border-radius: 8px;
+  
+}
+
+.cool{
+  border-radius: 50%;
+  width: 200px;
+}
+
+
+
+.team1{
+  margin-right: 20px;
+}
+
+
+.team3{
+  margin-left: 20px;
+}
+
+.teamImages{
+  margin-top: 30px;
+  opacity: 1;
+}
+
+.teamText{
+  margin-top: 30px;
+  margin-bottom: 50px;
+  width: 640px;
+  text-align: center;
+  display: block;
+}
+
+.exploration{
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.employ{
+  display: flex;
+  padding-right: 30px;
+ justify-content: space-between;
+ align-items: center;
+ padding-top: 30px;
+ padding-bottom: 30px;
+ 
+  
+}
+
+.employImages{
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.coolText{
+  width: 90%;
+  text-align: left;
+}
+
+.forMargin{
+  margin-top: 50px;
+}
+.contact{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hector{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+ 
+}
+
+.mazafaqa{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-top: 80px;
+  align-items: flex-start;
+  margin-bottom: 50px;
+}
+
+.contactTextDiv{
+  display: flex;
+  flex-direction: column;
+}
+
+.f{
+  font-size: 62px;
+  color: #253e5b;
+  margin-right: 30px;
+}
+
+.fa-envelope{
+  font-size: 40px;
+}
+
+h3{
+  font-size: 28px;
+  color: #ffa838;
+}
+
+
+
+.contactText{
+  margin-top: 20px;
+}
+
+.white3{
+  width: 100%;
+}
+
+.content3{
+  width: 100%;
+  background: rgba(0,0,0,0.7);
+  color: grey;
+  
+}
+
+h2, .team1, .team2, .team3, .teamText{
+  opacity: 1;
+}
+
+.content3 h2{
+  color: #253e5b;
+  font-size: 42px;
+}
+
+
+
+.hector3{
+  margin-top: -2px;
+}
+
+.hector1{
+  margin-top: 5px;
+}
+
+
+
+.footer{
+  margin-top: 300px;
+ 
+}
+
+.contactText{
+  color: rgb(173, 183, 230);
+  font-size: 16px;
+}
+
+
+
+.homePageNav .nav-link{
+  color: #ffa838 !important;
+}
+
+.homePageNav .nav-link:hover{
+  color: lightblue !important;
+}
+
+.homePageNav .active{
+  color: lightblue !important;
+}
+
+.sloganMainPage h1{
+  color: #ffa838 !important;
+}
+
+
+.sloganMainPage .likeHr{
+  
+  background-color: lightblue !important;
+} 
+/*contact page*/
+.contactPageFooter{
+  margin-top: 120px;
+}
+
+
+/*about page*/
+.members, .prg{
+  margin-bottom: 40px;
+}
+
+.aboutCompany{
+  padding: 30px;
+  padding-bottom: 15px;
+}
+
+.copyright{
+  text-align: center;
+  
+}
+
+.hidenMenu{
+  
+  z-index: 1000 !important;
+}
+/*social page*/
+
+.imgSocial{
+  width: 100%;
+  
+}
+
+/*social page*/
+
+.copyGeo{
+  margin-top: 40px;
+  margin-bottom: 10px;
+  color: black;
+}
+
+/*social page*/
+.up{
+  margin-bottom: -40px;
+}
+
+.h2Geo{
+  color: #ffa838;
+}
+
+.imgGeo{
+  border-radius: 8px;
+}
+
+
+.left{
+  text-align: left;
+}
+
+
+.fa-envelope{
+  margin-right: -15px;
+}
+
+
+.scrollUp{
+  
+  width:30px;
+  height:30px;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 30px;
+  color: #253e5b;
+  right: 30px;
+  background: #ffa838;
+  cursor: pointer;
+  
+
+}
+
+
+
+
+
+
+
+@media only screen and (min-width: 991px) {
+  .hiddenMenu{
+    display: none !important;
+  }
+
+  #heroDiv, .copy{
+    display: block !important;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .navbar-brand{
+    display: block !important;
+  }
+
+  .raxdeba{
+    justify-content: space-between;
+  }
+   
+}
+
+@media only screen and (max-width: 888px) {
+  .teamImages{
+    margin-top: -30px;
+  }
+}
+
+@media only screen and (max-width: 777px) {
+.block{
+  margin-top: 0px;
+}
+
+.teamImages{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.team1, .team2, .team3{
+  width: 50%;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 30px;
+}
+.team1{
+  margin-top: 0px;
+}
+
+.expl{
+  margin-top: 25px;
+}
+
+.teamText{
+  width: 80%;
+}
+
+.employ{
+  flex-direction: column;
+  align-items: center;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.coolText{
+  margin-top: 20px;
+}
+
+.mazafaqa{
+  flex-direction: column;
+  align-items: center;
+}
+
+.hector{
+  margin-right: 40px;
+}
+
+.hector{
+  margin-top: 30px;
+}
+
+.hector3{
+  margin-top: 57px;
+}
+
+.hector1{
+  margin-top: -15px;
+}
+
+
+}
+
+@media only screen and (max-width: 442px) {
+ h1{
+   font-size: 32px;
+ }
+
+
+ .raxdeba{
+   padding-left: 0px;
+   padding-right: 0px;
+ }
+
+ .hiddenMenu{
+   
+   text-align: right;
+ }
+
+ .hiddenMenu .nav-item{
+   padding-right: 20px;
+ }
+
+}
+
+@media only screen and (max-width: 377px) {
+
+  .hector{
+    margin-right: 10px;
+  }
+}
+
+@media only screen and (max-width: 370px) {
+
+  h1{
+    font-size: 28px;
+  }
+}
+
+@media only screen and (max-width: 345px) {
+
+  .hector{
+    margin-right: 7px;
+  }
+}
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
