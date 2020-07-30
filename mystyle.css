@@ -11,7 +11,7 @@ text-decoration: none;
 
 body{
   font-size: 14px;
-  background-image: url("img/pic5.JPG");
+  background-image: url("img/pic6.jpg");
   object-fit: cover;
   background-size: cover;
   overflow-x: hidden;
@@ -22,15 +22,17 @@ body{
 
 
 .bodyGeorgia{
-  background-image: url("img/ushguli.jpg");
+  background-image: url("img/pic3.jpg");
  background-position: center; 
 }
 
 .bodyAbout{
-  background-image: url("img/aboutbg.jpg");
+  background-image: url("img/aboutbg2.jpg");
 }
 
-
+.moneta{
+  background-image: url("img/pic5.JPG");
+}
 
 p{
   font-size: 16px;
@@ -39,6 +41,7 @@ p{
 .copyright{
   font-size: 12px;
   font-family:  monospace;
+ 
 }
 
 .fa-times{
@@ -462,6 +465,7 @@ h2, .team1, .team2, .team3, .teamText{
 
 .footer{
   margin-top: 300px;
+  
  
 }
 
@@ -472,27 +476,19 @@ h2, .team1, .team2, .team3, .teamText{
 
 
 
-.homePageNav .nav-link{
+.aboutPageNav .nav-link{
   color: #ffa838 !important;
 }
 
-.homePageNav .nav-link:hover{
+.aboutPageNav .nav-link:hover{
   color: lightblue !important;
 }
 
-.homePageNav .active{
+.aboutPageNav .active{
   color: lightblue !important;
 }
 
-.sloganMainPage h1{
-  color: #ffa838 !important;
-}
 
-
-.sloganMainPage .likeHr{
-  
-  background-color: lightblue !important;
-} 
 /*contact page*/
 .contactPageFooter{
   margin-top: 120px;
@@ -511,12 +507,17 @@ h2, .team1, .team2, .team3, .teamText{
 
 .copyright{
   text-align: center;
+  margin-top: 30px;
   
 }
 
 .hidenMenu{
   
   z-index: 1000 !important;
+}
+
+.aboutCopy{
+  color: lightblue;
 }
 /*social page*/
 
@@ -531,6 +532,10 @@ h2, .team1, .team2, .team3, .teamText{
   margin-top: 40px;
   margin-bottom: 10px;
   color: black;
+}
+
+.copySocial{
+  color: lightblue;
 }
 
 /*social page*/
@@ -651,14 +656,14 @@ h2, .team1, .team2, .team3, .teamText{
 
 .hector{
   margin-right: 40px;
-}
-
-.hector{
   margin-top: 30px;
 }
 
+
+
 .hector3{
   margin-top: 57px;
+  margin-right: 0px;
 }
 
 .hector1{
