@@ -500,6 +500,14 @@ h2, .team1, .team2, .team3, .teamText{
 .members, .prg{
   margin-bottom: 40px;
 }
+.none{
+  display: none;
+  
+}
+
+.ourTeam{
+  margin-bottom: 100px;
+}
 
 .aboutCompany{
   padding: 30px;
