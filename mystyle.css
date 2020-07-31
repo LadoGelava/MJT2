@@ -17,6 +17,7 @@ body{
   overflow-x: hidden;
   background-attachment: fixed;
   font-family: 'Quicksand', sans-serif;
+  background-repeat: no-repeat;
   
 }
 
