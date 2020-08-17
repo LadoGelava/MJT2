@@ -454,13 +454,9 @@ h2, .team1, .team2, .team3, .teamText{
 
 
 
-.hector3{
-  margin-top: -2px;
-}
 
-.hector1{
-  margin-top: 5px;
-}
+
+
 
 
 
@@ -527,7 +523,7 @@ h2, .team1, .team2, .team3, .teamText{
 }
 
 .aboutCopy{
-  color: lightblue;
+  color: black;
 }
 /*social page*/
 
@@ -541,11 +537,11 @@ h2, .team1, .team2, .team3, .teamText{
 .copyGeo{
   margin-top: 40px;
   margin-bottom: 10px;
-  color: black;
+  color:  #ffa838;
 }
 
 .copySocial{
-  color: lightblue;
+  color:   black;
 }
 
 /*social page*/
@@ -623,6 +619,9 @@ h2, .team1, .team2, .team3, .teamText{
 @media only screen and (max-width: 777px) {
 .block{
   margin-top: 0px;
+}
+.sloganMainPage h1{
+  color: #ffa838;
 }
 
 .teamImages{
