@@ -583,6 +583,28 @@ h2, .team1, .team2, .team3, .teamText{
 
 }
 
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+ 
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background:  #253e5b; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ffa838; 
+ 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  
+}
+
 
 
 
