@@ -586,7 +586,14 @@ h2, .team1, .team2, .team3, .teamText{
 
 
 
-
+@media only screen and (max-width: 1207px) {
+  .employ{
+    justify-content: space-around;
+  }
+  .coolText{
+    width: 55%;
+  }
+}
 
 
 @media only screen and (min-width: 991px) {
@@ -597,6 +604,8 @@ h2, .team1, .team2, .team3, .teamText{
   #heroDiv, .copy{
     display: block !important;
   }
+
+  
 }
 
 @media only screen and (max-width: 991px) {
@@ -655,6 +664,7 @@ h2, .team1, .team2, .team3, .teamText{
 }
 
 .coolText{
+  width: 90%;
   margin-top: 20px;
 }
 
